@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingEnd="@dimen/paddingScrollView"
+    android:paddingStart="@dimen/paddingScrollView"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/paddingScrollView"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/titleText"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app"
+            android:layout_marginBottom="@dimen/marginButtons"
+            android:layout_marginTop="@dimen/marginButtons"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/artist"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/artist"
+                android:text="@string/artist" />
+
+
+            <TextView
+                android:id="@+id/tracks"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/app"
+                android:layout_weight="1"
+                android:background="@color/tracks"
+                android:text="@string/tracks" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/shuffle"
+            style="@style/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttons"
+            android:background="@color/shuffle"
+            android:text="@string/shuffle" />
+
+        <TextView
+            android:id="@+id/nowPlaying"
+            style="@style/button2"
+            android:layout_below="@id/shuffle"
+            android:background="@color/nowPlaying"
+            android:text="@string/now_playing" />
+    </RelativeLayout>
+</ScrollView>

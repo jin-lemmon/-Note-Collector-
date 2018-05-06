@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/artistLight"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingActivities">
+
+    <TextView
+        android:id="@+id/mainMenuButton"
+        style="@style/mainMenuButton"
+        android:layout_weight="1"
+        android:text="@string/main_menu" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1000"
+        android:padding="@dimen/paddingScrollView"
+        tools:context="com.example.android.notecollector.ArtistActivity" />
+
+    <TextView
+        android:id="@+id/nowPlayingButton"
+        style="@style/nowPlayingButton"
+        android:layout_weight="1"
+        android:text="@string/now_playing" />
+</LinearLayout>

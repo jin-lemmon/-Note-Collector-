@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingScrollView">5dp</dimen>
+    <dimen name="buttonPadding">50dp</dimen>
+    <dimen name="buttonMargin">20dp</dimen>
+    <dimen name="buttonText">25sp</dimen>
+    <dimen name="titleText">30sp</dimen>
+    <dimen name="paddingActivities">8dp</dimen>
+    <dimen name="paddingMenuButtons">8dp</dimen>
+    <dimen name="buttonElevation">20dp</dimen>
+    <dimen name="songPadding">4dp</dimen>
+    <dimen name="ItemText">14sp</dimen>
+    <dimen name="paddingPlayer">10dp</dimen>
+    <dimen name="marginButtons">15dp</dimen>
+</resources>

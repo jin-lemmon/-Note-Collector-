@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:textSize">@dimen/buttonText</item>
+        <item name="android:paddingBottom">@dimen/buttonPadding</item>
+        <item name="android:paddingTop">@dimen/buttonPadding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button2" parent="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingStart">@dimen/buttonPadding</item>
+        <item name="android:paddingEnd">@dimen/buttonPadding</item>
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+    </style>
+
+    <style name="button1" parent="button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginStart">@dimen/marginButtons</item>
+        <item name="android:layout_marginEnd">@dimen/marginButtons</item>
+    </style>
+
+    <style name="track" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tracks</item>
+        <item name="colorPrimaryDark">@color/tracksDark</item>
+        <item name="colorAccent">@color/trackAlt</item>
+    </style>
+
+    <style name="album" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/album</item>
+        <item name="colorPrimaryDark">@color/albumDark</item>
+        <item name="colorAccent">@color/albumAlt</item>
+    </style>
+
+    <style name="artist" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/artist</item>
+        <item name="colorPrimaryDark">@color/artistDark</item>
+        <item name="colorAccent">@color/artistAlt</item>
+    </style>
+
+    <style name="playlist" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/playlist</item>
+        <item name="colorPrimaryDark">@color/playlistDark</item>
+        <item name="colorAccent">@color/playlistAlt</item>
+    </style>
+
+    <style name="nowPlaying" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/nowPlaying</item>
+        <item name="colorPrimaryDark">@color/nowPlayingDark</item>
+        <item name="colorAccent">@color/nowPlayingAlt</item>
+    </style>
+
+    <style name="mainMenuButton">
+        <item name="android:elevation">@dimen/buttonElevation</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/buttonPadding</item>
+        <item name="android:paddingEnd">@dimen/buttonPadding</item>
+        <item name="android:paddingTop">@dimen/paddingMenuButtons</item>
+        <item name="android:paddingBottom">@dimen/paddingMenuButtons</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="nowPlayingButton">
+        <item name="android:elevation">@dimen/buttonElevation</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/buttonPadding</item>
+        <item name="android:paddingEnd">@dimen/buttonPadding</item>
+        <item name="android:paddingTop">@dimen/paddingMenuButtons</item>
+        <item name="android:paddingBottom">@dimen/paddingMenuButtons</item>
+        <item name="android:background">@color/nowPlayingDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="itemText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">@dimen/songPadding</item>
+        <item name="android:paddingStart">@dimen/songPadding</item>
+        <item name="android:textSize">@dimen/ItemText</item>
+        <item name="android:layout_toEndOf">@id/play</item>
+    </style>
+
+    <style name="nowPlayer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/nowPlaying</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="nowPlayer1" parent="nowPlayer">
+        <item name="android:paddingEnd">@dimen/paddingPlayer</item>
+        <item name="android:paddingStart">@dimen/paddingPlayer</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="nowplayingbuttons">
+        <item name="android:layout_margin">@dimen/marginButtons</item>
+        <item name="android:background">@color/nowPlaying</item>
+        <item name="android:tint">@color/nowPlayingAlt</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

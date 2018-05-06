@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4db6ac</color>
+    <color name="colorPrimaryDark">#00766c</color>
+    <color name="colorAccent">#ed9f9e</color>
+    <color name="artist">#d50000</color>
+    <color name="artistLight">#ff5131</color>
+    <color name="artistDark">#9b0000</color>
+    <color name="artistAlt">#05d6b0</color>
+    <color name="tracks">#dd2c00</color>
+    <color name="tracksLight">#ff8a65</color>
+    <color name="tracksDark">#a30000</color>
+    <color name="trackAlt">#00bcd4</color>
+    <color name="album">#304ffe</color>
+    <color name="albumLight">#7a7cff</color>
+    <color name="albumDark">#0026ca</color>
+    <color name="albumAlt">#ffe100</color>
+    <color name="playlist">#01579b</color>
+    <color name="playlistLight">#4f83cc</color>
+    <color name="playlistDark">#002f6c</color>
+    <color name="playlistAlt">#ef6c00</color>
+    <color name="shuffle">#ffc107</color>
+    <color name="nowPlaying">#4caf50</color>
+    <color name="nowPlayingDark">#087f23</color>
+    <color name="nowPlayingAlt">#6a1b9a</color>
+
+</resources>

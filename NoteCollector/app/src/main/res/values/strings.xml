@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">♫Note Collector♫</string>
+    <string name="artist">Artist</string>
+    <string name="tracks">Tracks</string>
+    <string name="album">Album</string>
+    <string name="playlist">Playlist</string>
+    <string name="shuffle">Shuffle!</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="main_menu">Main Menu</string>
+
+</resources>
