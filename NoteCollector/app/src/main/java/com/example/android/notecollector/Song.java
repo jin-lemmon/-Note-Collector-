@@ -1,7 +1,5 @@
 package com.example.android.notecollector;
 
-import java.util.Comparator;
-
 public class Song {
     private String mTitle;
     private String mArtist;
